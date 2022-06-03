@@ -1,0 +1,28 @@
+.banner-second {
+    border: 1px solid var(--como-547665);
+  }
+  .banner-second .wrapcont {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+  }
+  .banner-second h4,
+  .banner-second p {
+    color: var(--oxford-blue-354e57);
+    line-height: 20px;
+  }
+  
+  .banner-second h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: var(--line-spacing-34);
+  }
+  
+  @media screen and (max-width: 767px) {
+    .banner-second .wrapcont {
+      margin: 20px auto;
+    }
+    .banner-second .wrapcont {
+      padding: 10px 50px;
+    }
+  }

@@ -1,0 +1,232 @@
+.footer {
+    background: #354E57;
+    border: 1px solid #707070;
+    overflow-x: hidden;
+}
+.footer__extra-padding{
+    /* padding: 140px 20px 116px 139px; */
+    max-width: 1366px;
+    margin: 0 auto;
+    
+}
+.container5{
+    max-width: 1130px;
+    padding: 0 20px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    padding-top: 70px;
+}
+
+.row{
+    max-width: 1130px;
+    /* padding: 10px; */
+    margin: auto;
+    position: relative;
+    width: 100%;
+
+}
+
+
+
+.input-group{
+    display: flex;
+}
+
+.footer__content1{
+    padding: 1px;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    font-size: var(--font-size-16);
+}
+.footer__content{
+    padding: 1px;
+    /* max-width: 1366px; */
+    margin: 0 auto;
+    /* display: flex; */
+    font-size: var(--font-size-16);
+    /* margin-left: 149px; */
+}
+
+
+.footer_title {
+    margin: 0px;
+    font-size: 54px;
+    color: #FFFFFF;
+    line-height: 66px;
+    letter-spacing: 2.7px;
+    text-align: left;
+    /* height: 40px; */
+}
+.footer_paragraph {
+    margin: 15px 0px 36px 0px;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    /* height: 40px; */
+}
+.footer-ul-title{
+    margin:  0px;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer ul li{
+    margin:  0px;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.form-control-color {
+    background-color: #354E57;
+    border: 1px solid #FFFFFF;
+    padding: 15px;
+}
+.form-control-color::placeholder {
+    color: #FFFFFF;
+    font-size: 14px;
+    opacity: 1;
+  }
+.btn-footer {
+    background-color: #354E57;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 15px;
+}
+.footer__hr{
+    border-top: 1px solid #707070;
+    width: 90%;
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+.footer_title-2{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.footer_info-2{
+    margin: 0px;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: underline;
+}
+.footer-icon{
+    
+    width: 34px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 3px; 
+    
+}
+@media screen and (max-width: 1536px) and (min-width: 1280px) {
+   
+   
+}
+@media screen and (max-width: 1275px) {
+
+}
+@media screen and (max-width: 992px) {
+    .footer__extra-padding{
+        padding: 84px 21px 142px 21px;
+    }
+    /* .reverse{
+        display: flex !important;
+        flex-direction: column-reverse;
+    } */
+    .input-group {
+        width: 70%;
+        flex-direction: row;
+    }
+    .footer-icon{
+        margin-top: 42px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer__extra-padding{
+        padding: 84px 21px 142px 21px;
+    }
+    .reverse{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+    .input-group {
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+    .footer-icon{
+        margin-top: 42px;
+    }
+
+    .btn-footer {
+        background-color: #354E57;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        padding: 15px;
+        width: 255px;
+    }
+
+    .form-control-color {
+        background-color: #354E57;
+        border: 1px solid #FFFFFF;
+        /* padding: 15px; */
+    }
+    .footer__hr{
+        border-top: 1px solid #707070;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .footer__extra-padding{
+        padding: 84px 21px 142px 21px;
+    }
+    .reverse{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+    .input-group {
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+    .footer-icon{
+        margin-top: 42px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .footer__extra-padding{
+        padding: 84px 21px 142px 21px;
+    }
+    .reverse{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+    .input-group {
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+    .footer-icon{
+        margin-top: 42px;
+    }
+}

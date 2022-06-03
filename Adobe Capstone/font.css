@@ -1,0 +1,50 @@
+:root {
+
+     /* Font/text values */
+     --line-spacing-17: 17px;
+     --line-spacing-22: 22px;
+     --line-spacing-24: 24px;
+     --line-spacing-34: 34px;
+     --line-spacing-38: 38px;
+     --line-spacing-48: 48px;
+     --line-spacing-58: 58px;
+     --font-size-12: 12px;
+     --font-size-14: 14px;
+     --font-size-16: 16px;
+     --font-size-18: 18px;
+     --font-size-28: 28px;
+     --font-size-25: 25px;
+     --font-size-32: 32px;
+     --font-size-40: 40px;
+     --font-size-48: 48px;
+     --font-size-58: 58px;
+     --character-spacing-0: 0px;
+     --font-family-proxima-nova: Proxima Nova;
+     --font-style-normal: normal;
+     --font-weight-bold: bold;
+     --font-weight-normal: normal;
+     
+   
+
+   /* color variables */
+   --como-547665: #547665;
+    --mischka-d7ccdd: #d7ccdd;
+    --rangitoto-2e2e22: #2e2e22;
+    --punch-de3b35: #de3b35;
+    --blue-0014ff: #0014ff;
+    --white-ffffff: #ffffff;
+    --light-sky-eef3f4: #eef3f4;
+    --deep-sky-e0e3e8: #e0e3e8;
+    --cape-palliser-a67744: #a67744;
+    --beige-f7f5e6: #f7f5e6;
+    --alabasterr-f7f7f7: #f7f7f7;
+    --athens-gray-eef2f4: #eef2f4;
+    --black-000000: #000000;
+    --palliser-956a53: #9a6b39;
+    --red: #f70707;
+    --silver-rust-c6b9b6: #c6b9b6;
+    --oxford-blue-354e57: #354e57;
+    
+  
+}
+  

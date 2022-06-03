@@ -1,0 +1,175 @@
+.teaser {
+  position: relative;
+}
+
+.teaser .bg-img {
+  display: flex;
+
+  width: 100%;
+  flex-wrap: wrap;
+
+  justify-content: flex-end;
+}
+
+.bg-img{
+    background-color: #C6B9B6;
+}
+
+.teaser .bg-img .bg-with-color {
+  width: 50%;
+}
+
+.teaser .bg-img .img-wrapper {
+  width: 50%;
+
+  height: 731px;
+
+  overflow: hidden;
+}
+
+.teaser .bg-img .img-wrapper img {
+  position: relative;
+
+  bottom: 30%;
+}
+
+.teaser .handwrap {
+  display: block;
+
+  position: absolute;
+
+  width: 100%;
+
+  height: auto;
+
+  top: 50%;
+
+  left: 0;
+
+  transform: translateY(-50%);
+
+  z-index: 1;
+}
+
+.teaser .wrapcont {
+  max-width: 465px;
+}
+
+.teaser .wrapcont h2 {
+  color: var(--white-ffffff);
+}
+
+.teaser .wrapcont h2 {
+  font-weight: bold;
+
+  margin-bottom: 23px;
+}
+
+.teaser .wrapcont p {
+  color: var(--athens-gray-eef2f4);
+
+  line-height: 24px;
+
+  margin-bottom: 55px;
+}
+
+.teaser.img-left .container {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: flex-end;
+}
+
+.teaser.img-left .column-wrapper {
+  display: flex;
+
+  width: 100%;
+
+  flex-wrap: wrap;
+
+  flex-direction: column-reverse;
+}
+
+.teaser.img-left .bg-img {
+  justify-content: flex-start;
+}
+
+.teaser.img-left .wrapcont p {
+  color: var(--rangitoto-2e2e22);
+}
+
+.teaser.img-left .img-wrapper img {
+  bottom: 55%;
+
+  width: 154%;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+  .teaser .bg-img .img-wrapper {
+    height: 600px;
+  }
+
+  .teaser .bg-img .img-wrapper img {
+    position: initial;
+
+    object-fit: none;
+
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .teaser .bg-img .img-wrapper {
+    width: 100%;
+
+    height: 563px;
+  }
+
+  .teaser .bg-img .img-wrapper img {
+    bottom: 21%;
+
+    right: 5%;
+
+    width: 154%;
+  }
+
+  .teaser .handwrap {
+    position: initial;
+
+    transform: none;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+
+    align-items: center;
+
+    height: 563px;
+  }
+ .teaser .handwrap{
+    background-color: #C6B9B6;
+}
+
+  .teaser .wrapcont {
+    max-width: 100%;
+
+    height: 100%;
+  }
+
+  .teaser.img-left .img-wrapper img {
+    bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .teaser .bg-img .img-wrapper img {
+    bottom: 67%;
+
+    right: 0;
+
+    width: auto;
+  }
+}

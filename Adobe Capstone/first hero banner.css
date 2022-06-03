@@ -1,0 +1,125 @@
+.first-hero-banner {
+  padding: 20px 0 70px;
+  position: relative;
+  overflow: hidden;
+}
+.first-hero-banner h1 {
+  font-weight: bold;
+}
+.first-hero-banner .img-wrapper {
+  position: relative;
+}
+.first-hero-banner .img-wrapper .inner-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: -31%;
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+  background: url("./images/plant.png") no-repeat;
+  background-size: contain;
+}
+.first-hero-banner .img-wrapper .inner-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 38%;
+  width: 100%;
+  height: 100%;
+  background: url("./images/plant-1.png") no-repeat;
+  background-size: 57%;
+}
+.first-hero-banner .bg-img {
+  position: absolute;
+  height: 100%;
+  top: -27%;
+  right: -60%;
+}
+.first-hero-banner p,
+.first-hero-banner h1 {
+  color: var(--oxford-blue-354e57);
+}
+.first-hero-banner .col-wrap {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-hero-banner .wrapcont {
+  width: 50%;
+  max-width: 441px;
+  position: relative;
+  z-index: 1;
+}
+
+.first-hero-banner .inner-wrapper {
+  max-width: 527px;
+  position: relative;
+  z-index: 1;
+}
+.first-hero-banner .inner-wrapper img {
+  position: relative;
+  z-index: 1;
+}
+
+.first-hero-banner p {
+  font-size: var(--font-size-16);
+  line-height: var(--line-spacing-24);
+  margin-bottom: 28px;
+}
+
+.first-hero-banner h1 {
+  margin: 14px 0;
+}
+
+/* Media queiry */
+@media screen and (max-width: 1280px) and (min-width: 992px) {
+  .first-hero-banner {
+    padding: 20px 0 60px;
+  }
+  .first-hero-banner .inner-wrapper {
+    max-width: 490px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .first-hero-banner .badge {
+    display: none;
+  }
+  .first-hero-banner .wrapbutton {
+    text-align: center;
+  }
+  .first-hero-banner {
+    padding: 20px 0;
+  }
+  .first-hero-banner .col-wrap {
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+  }
+  .first-hero-banner .wrapcont {
+    width: 100%;
+    /* padding: 50px 0 0 ; */
+  }
+  .first-hero-banner .inner-wrapper img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .first-hero-banner .bg-img img {
+    width: 100%;
+  }
+  .first-hero-banner .bg-img {
+    top: 12%;
+    right: -32%;
+    width: 222%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .first-hero-banner h1 {
+    font-size: 42px;
+  }
+}

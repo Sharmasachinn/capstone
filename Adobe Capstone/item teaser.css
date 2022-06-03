@@ -1,0 +1,113 @@
+.item-teaser .text-right {
+    text-align: right;
+  }
+
+  .item-teaser{
+      background-color: #f7f7f7;
+  }
+
+  .item-teaser .item-top-content {
+    padding: 40px 0 29px;
+  }
+  .item-teaser .item-top-content span {
+    font-weight: bold;
+    color: var(--rangitoto-2e2e22);
+  }
+  .item-teaser .cards {
+    width: calc(25% - 20px) !important;
+    max-width: 251px;
+    margin-right: 28px;
+  }
+  .item-teaser .cards:last-child {
+    margin-right: 0;
+  }
+  .item-teaser .item-wrapper {
+    position: relative;
+  }
+  .item-teaser .head-wrap {
+    padding: 14px 0 20px 0;
+  }
+  .item-teaser .head-wrap h6 {
+    font-weight: bold;
+  }
+  .item-teaser .head-wrap p {
+    font-size: var(--font-size-12);
+    font-weight: bold;
+    line-height: 16px;
+    padding: 3px 0 0;
+  }
+  .item-teaser .head-wrap p.product-price {
+    line-height: 15px;
+    padding-top: 9px;
+  }
+  .item-teaser .head-wrap p.product-price .dis-price {
+    color: var(--cape-palliser-a67744);
+  }
+  .item-teaser .head-wrap p.product-price .dis-price ~ span {
+    text-decoration: line-through;
+  }
+  .item-teaser .head-wrap h6,
+  .item-teaser .head-wrap p {
+    color: var(--rangitoto-2e2e22);
+  }
+  .item-teaser .buttonicon {
+    min-width: 100%;
+  }
+  .item-teaser .image-wrapper {
+    background-color: var(--white-ffffff);
+    height: 346px;
+  }
+  .item-teaser .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-position: center bottom;
+    object-fit: none;
+  }
+  .item-teaser .cards:last-of-type .item-wrapper {
+    margin-right: 0;
+  }
+  .item-teaser .chit {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1280px) {
+    .item-teaser .image-wrapper {
+      height: 300px;
+    }
+    .item-teaser .cards {
+      margin-right: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .item-teaser .cards {
+      margin: 0 16px 29px 0;
+      width: calc(50% - 8px) !important;
+      max-width: none;
+    }
+    .item-teaser .image-wrapper {
+      height: 300px;
+    }
+    .item-teaser .cards:nth-of-type(2n) {
+      margin-right: 0;
+      float: right !important;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .item-teaser .item-wrapper {
+      margin-top: 13px;
+    }
+    .item-teaser .item-top-content {
+      display: none;
+    }
+    .item-teaser .image-wrapper {
+      height: 229px;
+    }
+    .item-teaser .image-wrapper img {
+      object-fit: contain;
+    }
+  }
+  
